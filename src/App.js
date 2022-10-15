@@ -28,7 +28,7 @@ const App = () => {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
-        <Route path="/nft" element={<Nft />}></Route>
+        <Route path="/nft/:show" element={<Nft />}></Route>
         
       </Routes>
       </BrowserRouter>
